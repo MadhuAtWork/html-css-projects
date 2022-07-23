@@ -1,0 +1,239 @@
+.container{
+    width:100%;
+    height:100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    width:80%;
+    height:auto;
+    /* border:1px solid white; */
+    background-color: white;
+}
+.header{
+    width:100%;
+    height:auto;
+    /* border: 1px solid greenyellow; */
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    width:20%;
+    height:auto;
+    /* border: 1px solid white;  */
+    text-align: center;
+    padding:2px;
+}
+.navbar{
+    width:100%;
+    height:auto;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.myhome{
+    width:10%;
+    height:auto;
+    /* border:1px solid black; */
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    left:2%;
+    font-size: 32px;
+
+    
+}
+.home{
+    width:4%;
+    height:auto;
+    /* border:1px solid black; */
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+    margin-right: 10px;
+    color:green;
+    
+}
+.details{
+    width:6%;
+    height:auto;
+    /* border:1px solid black; */
+    text-align: center;
+    padding:15px 5px 15px 5px;
+    margin-right: 20px;
+    
+}
+.section{
+    width:100%;
+    height:auto;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    
+}
+.section img{
+  width:100%;
+  height:420px;
+  
+}
+.footer{
+    width:100%;
+    height:auto;
+    /* border:1px solid black; */
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 20px;
+     
+
+}
+.menu{
+    width:20%;
+    height:auto;
+    /* border:1px solid black; */
+    /* margin-bottom:20px;
+    margin-bottom:20px ; */
+    background-color: lightgray;
+    
+
+}
+.holder{
+    width:100%;
+    height:auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding:9px 0px 9px 0px; 
+    font-size: 20px;
+    position: relative;
+    
+}
+.box{
+    width:100%;
+    height:auto;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.box span{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+.holder span{
+    color:green;
+    font-size: 24px;
+}
+.section span{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.holder::after{
+    content: "";
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    left:10%;
+    border-bottom: 3px solid green;
+}
+.myhome:hover{
+    cursor: pointer;
+    color:green;
+}
+.details:hover{
+    color:green;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+.main{
+width:125px;
+height:150px;
+
+}
+.menu {
+    width: 100%;
+    height: auto;
+}
+section span {
+    font-size: 10px;
+}
+
+
+.details {
+    width: 6%;
+    padding: 7px 2px 7px 2px;
+    margin-right: 3px;
+    font-size:6px;
+}
+.main{
+    width:156px;
+    height:206px;
+    
+    }
+    .home {
+        width: 4%;
+        padding: 7px 2px 7px 2px;
+        margin-right: 10px;
+        font-size: 8px;
+    }
+    .myhome {
+        width: 10px;
+        padding: 1px;
+        left: 2%;
+        font-size: 10px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        width: 80%;
+        padding: 10px 60px 10px 60px;
+        margin: 10px 0px 0px 20px;
+    }
+    
+.holder {
+    width: 100%;
+    padding: 9px 0px 9px 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    contact {
+        width: 30%;
+
+        padding: 2px;
+        font-size: 5px;
+    }
+    .myhome {
+        padding: 1px;
+        left: 1%;
+        font-size: 9px;
+    }
+    .details {
+        padding: 5px 1px 0px 1px;
+        margin-right: 8px;
+        font-size: 5px;
+    }
+   .home {
+        padding: 5px 1px 0px 0px;
+        font-size: 6px;
+    }
+    menu {
+        width: 100%;
+        margin: 10px;
+    }
+
+
+
+} 

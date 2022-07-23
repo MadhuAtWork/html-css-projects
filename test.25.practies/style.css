@@ -1,0 +1,268 @@
+.container{
+    width:100%;
+    height:auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width:90%;
+    height:auto;
+    background-color: black;
+    /* border: 1px solid black;  */
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    display: flex;
+}
+.hope{
+    width:15%;
+    /* height:auto;
+    border:1px solid white; */
+    font-size: 40px;
+    text-align: center;
+    color:orange;
+}
+.menu{
+    width:85%;
+    height:auto;
+    /* border:1px solid rgb(82, 12, 12); */
+}
+.icons{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+.icon1{
+    width:5%;
+    height:auto;
+    /* border:1px solid white; */
+    text-align: center;
+    padding: 5px;
+}
+.home{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+}
+.home1{
+    width:10%;
+    height:auto;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+.section{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    display: flex;
+}
+.side{
+    width:20%;
+    height:auto;
+    border-right: 6px solid white;
+    border-bottom: 4px solid white;
+    font-size: 32px;
+
+}
+.money1{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    text-align: center;
+    padding:40px 0px 40px 0px; 
+    background-color:yellow;
+    
+}
+.pic{
+    width:80%;
+    height:498px;
+    position: relative;
+
+}
+.pic img{
+ width:100%;
+ height:100%;   
+}
+.change{
+    width:50%;
+    height:auto;
+    font-size:36px;
+    position: absolute;
+    bottom: 5%;
+    right:0px;
+    color:rgb(83, 16, 16);
+    text-align: right;
+    padding-right: 30px;
+
+}
+.line1{
+    width:100%;
+    height:auto;
+    
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.line2{
+    width:70%;
+    height:auto;
+    background-color: black;
+    color: white;
+    float:right;
+}
+.make{
+font-size: 42px;
+}
+.money2{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding:40px 0px 40px 0px;
+    background-color: greenyellow;
+    
+
+
+}
+.money3{
+    width:100%;
+    height:auto;
+    /* border:1px solid white; */
+    text-align: center;
+    padding:40px 0px 40px 0px;
+    background-color: rgb(46, 125, 245);
+    
+}
+.footer{
+    width:100%;
+    height:auto;
+    background-color: lightgray;
+    color:black;
+    /* border:1px solid white; */
+}
+.true{
+    width:100%;
+    height:auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative; */
+}
+.story1{
+    width:30%;
+    height:auto;
+    /* border:1px solid white; */
+    padding: 10px;
+    position: relative;
+}
+.part1{
+    width:100%;
+    height:auto;
+    /* border: 1px solid white; */
+    font-size: 36px;
+    padding: 10px 20px 10px 20px;
+}
+.part2{
+    width:100%;
+    height:auto;
+    margin: 10px;
+}
+.part2 img{
+    width:90%;
+    height:200px;
+    border:4px solid white;
+    margin-left:20px;
+}
+.part3{
+    width:100%;
+    height:auto;
+    padding: 10px 20px 10px 20px;
+}
+.home1:hover{
+    cursor:pointer;
+    background-color: yellow;
+    color:black;
+}
+.hope:hover{
+    cursor:pointer;
+    background-color: orange;
+    color:black;
+}
+.story1::before{
+    content: "";
+      position: absolute;
+      border-left: 1px solid black;
+      height:350px;
+    
+}
+.story1:first-child::before{
+    content: "";
+    height:0px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+     
+    .main{
+        width:156px;
+        height:256px;
+        
+    }
+    .home1 {
+        width: 17%;
+        height: auto;
+        text-align: center;
+        padding: 9px;
+        margin: 5px;
+    }
+    .hope {
+        width: 16%;
+        font-size: 32px;
+        padding: 15px;
+    }
+    .make {
+        font-size: 38px;
+    }
+
+.make {
+    font-size: 38px;
+}
+
+.side {
+    font-size: 24px;
+}
+.pic {
+    height: 458px;
+
+}
+.change {
+    font-size: 23px;
+}
+.part1 {
+    font-size: 26px;
+}
+.part2 {
+    margin: 0px;
+}
+.part3 {
+
+    padding: 15px 0px 0px 20px;
+}
+
+
+
+ }
